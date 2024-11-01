@@ -1037,6 +1037,7 @@ def app_report_cust_view(request, pk):
         return render(request, 'appointments/customer/app_report_cust.html', context)
     # elif check_engineer(request.user):
     #     return render(request, 'hospital/Doctor/report_apt.html', context)
+    #OMG. Qas the original code for a hospital?
     # elif check_admin(request.user):
     #     return render(request, 'hospital/Admin/report_apt.html', context)
     else:
